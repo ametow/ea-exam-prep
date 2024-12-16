@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: exam-prep
+  profiles:
+    active: prod

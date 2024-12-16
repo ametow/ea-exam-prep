@@ -1,0 +1,11 @@
+### Create Student
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+  "firstName": "Arslan",
+  "lastName": "Ametov",
+  "studentId": "1d37d"
+}
+
+###

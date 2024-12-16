@@ -1,0 +1,38 @@
+### Create House
+POST http://localhost:8080/houses
+Content-Type: application/json
+
+{
+  "price": 3000000,
+  "year": 2023
+}
+
+### Get All Houses
+GET http://localhost:8080/houses
+Content-Type: application/xml
+
+
+### Get House By Id
+GET http://localhost:8080/houses/1
+Content-Type: application/xml
+
+
+### Update House by id
+PUT http://localhost:8080/houses/3
+Content-Type: application/json
+
+{
+  "price": 2000700,
+  "year": 2024
+}
+
+
+### Delete House by id
+DELETE http://localhost:8080/houses/4
+Content-Type: application/json
+
+
+###
+GET localhost:8080/greet
+Content-Type: application/json
+Accept-Language: fr
